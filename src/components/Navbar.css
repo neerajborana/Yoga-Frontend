@@ -1,0 +1,50 @@
+nav {
+    background-color: #f0f8ff; 
+    color: blueviolet;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    font-size: larger;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: blueviolet;
+    transition: color 0.3s; 
+  }
+  
+  nav a:hover {
+    color: rgb(102, 22, 176);
+  }
+  
+  li:hover {
+    border-bottom: 2px solid rgb(102, 22, 176);
+    transition: border-bottom 0.3s;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    li {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc; 
+    }
+  
+    li:last-child {
+      margin-bottom: 0; 
+    }
+  }
+  

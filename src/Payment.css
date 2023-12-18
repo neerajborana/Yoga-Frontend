@@ -1,0 +1,33 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .entry-box {
+    border: 1px solid #e58d8d;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .entry-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .entry-field {
+    margin-bottom: 10px;
+  }
+
+  .entry-field p {
+    margin: 0;
+  }
+
+  #btn:hover{
+    background-color: #e58d8d;
+  }

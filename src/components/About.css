@@ -1,0 +1,25 @@
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .about-section,
+  .mission-section,
+  .instructors-section {
+    margin-bottom: 40px;
+  }
+  
+  .instructor-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .instructor-card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
