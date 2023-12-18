@@ -4,9 +4,9 @@
 Welcome to the repository for the Yoga website, a platform designed to provide information about yoga classes and allow users to enroll in various batches. This project consists of four main components: Home Page, About Page, Enrollment Page, and Payment Page. Additionally, the website integrates with MongoDB to store user enrollment details.
 ## Access the links
 
-You can access the Yoga website by clicking on the following link: [Yoga Website](https://yoga-frontend-uwe2.onrender.com)
-frontend github repo link : https://github.com/neerajborana/Yoga-Frontend
-backend github repo link : https://github.com/neerajborana/Yoga-Backend
+You can access the Yoga website by clicking on the following link: https://yoga-frontend-uwe2.onrender.com <br>
+frontend github repo link : https://github.com/neerajborana/Yoga-Frontend <br>
+backend github repo link : https://github.com/neerajborana/Yoga-Backend <br>
 
 ## Components
 
