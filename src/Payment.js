@@ -5,8 +5,12 @@ import './Payment.css'; // Import the CSS file
 
 const Payment = () => {
   const [formData, setFormData] = useState([]);
-  function handleClick(){
-    alert("Payment done successfully")
+
+  function handleClick(entryId) {
+    // Remove the entry with the given ID from formData
+    const updatedFormData = formData.filter(entry => entry._id !== entryId);
+    setFormData(updatedFormData);
+    alert("Payment done successfully");
   }
 
   useEffect(() => {
@@ -23,10 +27,9 @@ const Payment = () => {
       {formData.map((entry) => (
         <div key={entry._id} className="entry-box">
           <p className="entry-field"><strong>Email:</strong> {entry.email}</p>
-          <p className="entry-field"><strong>Password:</strong> {entry.password}</p>
-          <p className="entry-field"><strong>Remember Me:</strong> {entry.rememberMe ? 'Yes' : 'No'}</p>
+          {/* Other entry fields... */}
           <p className="entry-field"><strong>Batch:</strong> {entry.batch}</p>
-          <button id='btn' onClick={handleClick}>Pay Rs.500</button>
+          <button id='btn' onClick={() => handleClick(entry._id)}>Pay Rs.500</button>
         </div>
       ))}
     </div>
